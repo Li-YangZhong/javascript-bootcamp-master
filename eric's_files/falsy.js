@@ -1,0 +1,1 @@
+if (0 || '' || false || undefined || NaN || null) {console.log('this block will not be executed.')}
