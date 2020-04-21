@@ -1,5 +1,10 @@
-const planets = ['mercury', 'venus', 'earth']
+const planets = [
+    'mercury', 
+    'venus', 
+    'earth',
+    ['mars', 'phobos', 'deimos']
+]
 
-const [one, two, three] = planets
+const [one, , , [fourth, moon1, moon2]] = planets
 
-console.log(one, two, three)
+console.log(one, fourth, moon1, moon2)
